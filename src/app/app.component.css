@@ -41,13 +41,13 @@ p {
 }
 
 .odd {
-    background: rgb(78, 187, 78);
+    background: rgb(184, 73, 33);
     color: white;
     text-align: center;
 }
 
 .even {
-    background: rgb(184, 73, 33);
+    background: rgb(78, 187, 78);
     color: white;
     text-align: center;
 }
@@ -55,4 +55,8 @@ p {
 .all {
     background: white;
     text-align: center;
+}
+
+p {
+    margin-top: 1rem;
 }

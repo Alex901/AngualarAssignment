@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, ViewEncapsulation, OnChanges } from '@angular/core';
 
 @Component({
   selector: 'app-all',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./all.component.css']
 })
 export class AllComponent implements OnInit {
-  count : number = 0;
+  @Input() count : number = 0;
   constructor() { }
 
   ngOnInit(): void {

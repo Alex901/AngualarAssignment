@@ -3,20 +3,21 @@
 </div>
 <hr>
 
-<app-game-control> </app-game-control>
-
+<app-game-control (countIncrased)="reciveMessage($event)"> </app-game-control>
 <hr>
 
 <div class="container output_container">
     <div class="row">
+
         <div class="col odd">
-            <app-odd></app-odd>
+            <app-odd [count]="count"></app-odd>
         </div>
         <div class="col even">
-            <app-even> </app-even>
+            <app-even [count]="count"> </app-even>
         </div>
+
         <div class="col all">
-            <app-all> </app-all>
+            <app-all [count]="count"> </app-all>
         </div>
     </div>
 </div>
