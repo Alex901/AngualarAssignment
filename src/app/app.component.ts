@@ -1,5 +1,10 @@
 import { Component } from '@angular/core';
 
+import {factory} from "../ConfigLog4j";
+
+
+const log = factory.getLogger("model.Product");
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,4 +12,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'assignment4';
+
+  constructor(){
+
+  }
 }
