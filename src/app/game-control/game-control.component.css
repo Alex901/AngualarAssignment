@@ -1,0 +1,18 @@
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    align-content: center;
+}
+
+.left-button-container {
+    background-color: green;
+    height: 75px;
+    align-content: center;
+}
+
+.right-button-container {
+    background-color: red;
+    height: 75px;
+    align-content: center;
+}

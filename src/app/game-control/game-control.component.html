@@ -1,0 +1,10 @@
+<div class="container center">
+    <div class="row" style="height: auto">
+        <div class="col left-button-container d-flex justify-content-center">
+            <button class="btn btn-primary" [disabled]="gameGoing" (click)="onClickStart()">Start Game </button>
+        </div>
+        <div class="col right-button-container d-flex justify-content-center">
+            <button class="btn btn-danger" [disabled]="!gameGoing" (click)="onClickStop()"> Stop Game </button>
+        </div>
+    </div>
+</div>

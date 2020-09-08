@@ -1,0 +1,36 @@
+.container {
+    position: relative;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #434e4e;
+    color: white;
+    font-size: 30px;
+}
+
+.center {
+    padding: 60px;
+    align-content: center;
+    background: #434e4e;
+    color: white;
+}
+
+.output_container {
+    align-content: center;
+    background: darkgray;
+    color: black;
+    width: 40%;
+    display: table;
+}
+
+.col {
+    margin: auto;
+    border-style: ridge;
+    align-content: center;
+}
