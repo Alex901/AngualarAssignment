@@ -1,10 +1,15 @@
-.container {
-    position: relative;
-}
+/*  elements  */
 
 body {
     background-color: whitesmoke;
 }
+
+p {
+    margin: auto;
+}
+
+
+/* classes */
 
 .header {
     padding: 60px;
@@ -33,4 +38,21 @@ body {
     margin: auto;
     border-style: ridge;
     align-content: center;
+}
+
+.odd {
+    background: rgb(78, 187, 78);
+    color: white;
+    text-align: center;
+}
+
+.even {
+    background: rgb(184, 73, 33);
+    color: white;
+    text-align: center;
+}
+
+.all {
+    background: white;
+    text-align: center;
 }

@@ -26,11 +26,6 @@ export class GameControlComponent implements OnInit {
       console.log(this.baseCount);
       this.baseCount = count; //This is uggly AF
     }, 1000);
-
-
-
-    //(this.numberIncrement, 1000); //Incrase number by 1 every second
-    console.log(this.baseCount);
   }
 
   onClickStop(){ //Stop counter
@@ -39,7 +34,7 @@ export class GameControlComponent implements OnInit {
     this.baseCount = 0;
   }
 
-  numberIncrement(){
+  numberIncrement(){ //This did not workout the way i planned..
     console.log(this.baseCount);
     this.baseCount++;
     console.log(this.baseCount);

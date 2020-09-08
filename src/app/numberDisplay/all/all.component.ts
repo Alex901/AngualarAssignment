@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./all.component.css']
 })
 export class AllComponent implements OnInit {
+  count : number = 0;
   constructor() { }
 
   ngOnInit(): void {
