@@ -21,10 +21,4 @@ export class EvenComponent implements OnInit, OnChanges {
   ngOnInit(): void {
   }
 
-  isEvent(){
-    if(this.count % 2 == 0){
-      this.evenCount = this.count;
-    }
-  }
-
 }
