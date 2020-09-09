@@ -1,5 +1,5 @@
 <div class="header">
-    <h1>Assignment4</h1>
+    <h1>Yet another counter! </h1>
 </div>
 <hr>
 
@@ -16,7 +16,7 @@
             <app-even [count]="count"> </app-even>
         </div>
 
-        <div class="col all">
+        <div class="col all" [ngStyle]="{'background':count%2 === 0 ? 'green':'red'}">
             <app-all [count]="count"> </app-all>
         </div>
     </div>
